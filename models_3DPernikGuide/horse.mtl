@@ -1,0 +1,27 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl Material_#0
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd D:\\Program Files\\Unity\\Projects\\Beginning C#\\Модели\\Piebald horse\\Maps\\Eyes_vcols.png
+map_d D:\\Program Files\\Unity\\Projects\\Beginning C#\\Модели\\Piebald horse\\Maps\\Eyes_vcols.png
+
+newmtl wire_115115115
+Ns 82.706287
+Ka 1.000000 1.000000 1.000000
+Kd 0.450980 0.450980 0.450980
+Ks 2.000000 2.000000 2.000000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump -bm 0.140017 D:\\Program Files\\Unity\\Projects\\Beginning C#\\Модели\\Piebald horse\\Maps\\body_Normal.tga
+map_Kd D:\\Program Files\\Unity\\Projects\\Beginning C#\\Модели\\Piebald horse\\Maps\\body_Diffuse.tga
+map_Ks D:\\Program Files\\Unity\\Projects\\Beginning C#\\Модели\\Piebald horse\\Maps\\body_Specular.tga
