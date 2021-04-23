@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.am.a3dpernikguide.view.fragment.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_nav_home_to_seenFindsFragment"
+            app:destination="@id/nav_seen_finds" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.am.a3dpernikguide.view.fragment.SightsFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_sights" >
+        <action
+            android:id="@+id/action_nav_gallery_to_sightFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:destination="@id/nav_sight" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.am.a3dpernikguide.view.fragment.InfoFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
+        android:id="@+id/nav_sight"
+        android:name="com.am.a3dpernikguide.view.fragment.SightFragment"
+        android:label="fragment_sight"
+        tools:layout="@layout/fragment_sight" />
+
+    <fragment
+        android:id="@+id/nav_seen_find"
+        android:name="com.am.a3dpernikguide.view.fragment.SeenFindFragment"
+        android:label="fragment_seen_find"
+        tools:layout="@layout/fragment_sight" />
+
+    <fragment
+        android:id="@+id/nav_seen_finds"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:name="com.am.a3dpernikguide.view.fragment.SeenFindsFragment"
+        android:label="Вашите обекти, находки и артефакти"
+        tools:layout="@layout/fragment_seen_finds" >
+        <action
+            android:id="@+id/action_nav_seen_finds_to_nav_seen_find"
+            app:destination="@id/nav_seen_find" />
+    </fragment>
+    <activity
+        android:id="@+id/nav_scanner"
+        android:name="com.am.a3dpernikguide.view.activity.ScannerActivity"
+        android:label="QR код скенер!" />
+</navigation>

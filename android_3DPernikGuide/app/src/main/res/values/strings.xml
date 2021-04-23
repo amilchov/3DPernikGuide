@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">3DPernikGuide</string>
+
+    <string name="register">Регистрация</string>
+    <string name="first_name">Име</string>
+    <string name="second_name">Презиме</string>
+    <string name="surname">Фамилия</string>
+    <string name="login_name">"Име"</string>
+    <string name="login">Вход</string>
+    <string name="login_email_hint">Имейл</string>
+    <string name="login_password_hint">Парола</string>
+    <string name="login_password_hint_confirm">Повтори паролата</string>
+    <string name="signup_login_hint">Вече имате профил? Влезте с него!</string>
+    <string name="login_signup_hint">Нямате профил? Регистрирайте се!</string>
+
+    <!--    bottom navigation-->
+    <string name="title_home">Начало</string>
+    <string name="title_dashboard">Забележителности</string>
+    <string name="title_notifications">Информация</string>
+
+    <!--    Info Fragment-->
+    <string name="about_us">За нас</string>
+    <string name="about_us_definition">Ние, Алекс Милчов и Давид Иванов, сме ученици в Професионална гимназия по икономика, гр.Перник със специалност \"Икономическа информатика\".</string>
+    <string name="what_is_our_project">Цел на приложението</string>
+    <string name="project_definition">Приложението представлява една виртуална разходка из най-известните забележителности на град Перник. В нея се включват 3D модели на находки и исторически артефакти, които могат да бъдат разгледани и да се прочете повече информация за тях с помощта на сканиране на QR код или засичане на геолокацията на потребителя.</string>
+    <string name="content_description_image">Лого</string>
+    <string name="about_the_project">За проекта</string>
+    <string name="about_the_project_definition">Този проект е създаден с помощта и съдействието на Регионален исторически музей - гр. Перник. Всички материали са от изследователски проучвания, които са предоставени безвъзмездно от служителите на музея за НОИТ 2020.</string>
+
+    <!--    Toolbar Menu-->
+    <string name="action_settings">Изход от профила</string>
+
+    <string name="fortress_title">Средновековна пернишка крепост</string>
+    <string name="museum_title">Подземен минен музей</string>
+    <string name="forgot_password">Забравена парола?</string>
+    <string name="qr_title">Сканирай QR кода!</string>
+    <string name="virtual_arch">Виртуален археолог!</string>
+
+
+    <string name="museum_info">"        Подземният минен музей е уникален за Балканския полуостров. Разположен е в две от запазените галерии на първия подземен рудник, който е работил от 1891 до 1966г.
+        Посетителите имат възможност да проследят историята на въгледобива в автентична руднична атмосфера.Тридесетте експозиционни камери проследяват развитието на въгледобива от ръчния добив, през извоза на въглища с коне до съвременните механизирани комплекси.
+        В една от камерите е разположен иконостас на небесния покровител на миньорите Св. Иван Рилски, с когото е свързана една от най-старите легенди за "Старите рудници"."</string>
+    <string name="fortress_info">Крепостта “Перник”, много често наричана грешно Крепост ”Кракра”, се намира върху скалистото плато на хълма „Крепок” в югозападната част на град Перник, между кварталите Дараците, Варош, Кристал и местността на хълма “Кървавото”. Разположена върху площ от близо 50 дка, тя е една от най-големите крепости в България, служила едновременно като укрепление, резиденция и важен център.</string>
+
+
+    <!--    Model-->
+    <string name="toggle_wireframe">Toggle wireframe</string>
+    <string name="toggle_textures">Toggle textures</string>
+    <string name="toggle_lights">Toggle lights</string>
+    <string name="toggle_animation">Toggle animation</string>
+    <!--<string name="toggle_skeleton">Toggle skeleton</string>-->
+    <string name="toggle_boundingbox">Toggle bounding box</string>
+    <string name="load_texture">Load texture</string>
+
+    <string name="no_internet">Няма налична интернет връзка!</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_header_title">title</string>
+    <string name="nav_header_subtitle">subtitle</string>
+
+    <string name="google_map_key">AIzaSyDRIbeyI4e-Dz6yWosJ9lA7BMPaRKXhAQM</string>
+</resources>

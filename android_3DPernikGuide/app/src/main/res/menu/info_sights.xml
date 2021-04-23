@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_location"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_location_on_white_24dp"
+        android:title="Местоположение на забележителността!"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_video"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_ondemand_video_white_24dp"
+        android:title="3D възстановка!"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_info"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_info_white_24dp"
+        android:title="Информация за забележителността!"
+        app:showAsAction="always" />
+
+
+</menu>
